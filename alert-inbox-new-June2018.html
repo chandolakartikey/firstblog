@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+<title>IDT</title>
+<link href="styles/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="styles/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css">
+<link href="styles/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="Fonts/fonts.css" rel="stylesheet" type="text/css">
+<link href="styles/normalize.min.css" rel="stylesheet" type="text/css">
+<link href="styles/default.css" rel="stylesheet" type="text/css">
+<link href="styles/mobile.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/chosen.min.css">
+
+
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/chosen.jquery.min.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<header>
+  <div class="header">
+    <div class="container">
+      <div class="row">
+        <!--<div class="col-md-5 col-sm-4 hidden-xs evsLogo"><a href="index.html"><img src="images/evsLogo.png" alt="Evalueserve"> </a></div>--> <div class="col-md-5 col-sm-6 hidden-xs pull-left NewotherLogo">Services with Innovative<br> Frontline Tools </div>
+        <div class="col-md-7 col-sm-6 col-xs-12">
+       
+          <div class="topRightUserInfo"> <!-- hover menu starts -->
+            <div>Welcome&nbsp;&nbsp;|&nbsp;&nbsp;<span class="quickLink">Angela Lee <i class="glyphicon glyphicon-chevron-down " style="font-size:10px; font-weight:lighter;"></i>
+              <!--<i class="glyphicon glyphicon-cog"></i>-->
+              <ul>
+                <li><a href="Service-manager.html">Service Manager</a></li>
+                <li><a href="#">Logout</a></li>
+              </ul>
+              </span>  </div> 
+            
+            <!-- hover menu starts --> 
+          </div>
+          
+       
+          <div class="hidden-lg hidden-md hidden-sm otherLogo pull-right col-xs-8">Services with Innovative<br> Frontline Tools</div>
+              <div class="col-md-4 col-sm-6 hidden-xs pull-right marginT56"><a href="http://www.evalueserve.com/"><img src="images/evsLogo.png" class="NewEVSlogo " alt="Evalueserve"></a> </div>
+                                  
+          <div class="hidden-lg hidden-md hidden-sm  col-xs-4 pull-right padding0">  
+          <div class="mobisearch">
+          <div class="bellcircle">
+          <a class="" href="alert-inbox.html"><i class="fa fa-bell"></i> </a>
+          
+          <span class="alertsignal">12</span> </div>
+          
+          <!-- <div class="bellcircle1">
+          <a class="searchshow" href="#0"><i class="fa fa-search"></i>   </a>
+          
+                  
+          <span class="input-group-btn searchPanel">
+            
+              </span>
+          </div> -->
+          
+          </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-inverse navbar-static-top"  data-spy="affix" data-offset-top="197">
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span><!-- <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> -->
+        <div id="nav-icon1"> <span></span> <span></span> <span></span> </div>
+        </button> <div class="navRightPnl">
+          <div class="navbar-brand pull-right"><a class="newsAlertIcon" href="alert-inbox.html">News Inbox<i class="fa fa-envelope size16"></i> <span class="alertTxt"   data-anijs="if: animationend, on:span.name, do: rotateIn animated, after: removeAnim">12</span>
+           <!-- <ul>
+              <li class="head">12 Service Alert</li>
+              <li>5 Google/Baidu News</li>
+              <li>2 SSE/SZSE Company...</li>
+              <li>5 Google/Baidu News</li>
+            </ul>-->
+            </a></div>
+          <!--<div class="input-group paddingTop5">
+            <input type="text" class="form-control inp inpSearch" placeholder="Search" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search'">
+            <span class="input-group-btn">
+            <button class="btn search-btn" type="button"></button>
+            </span> </div>-->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li> <a href="index.html"> Home</a></li>
+            <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#"><span class="caret"></span> Services</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <div class="container paddingTop15 paddingBottom10">
+                    <div class="col-md-4 col-sm-5 col-xs-12  borderBlueRight2">
+                      <div class="servicesSubmenuLeft">
+                        <h1>Services</h1>
+                        <span class="serviceIconTxt">We simplify your operations by providing the outstanding services in a single interface. Click on each of them to access the details.</span>
+                        <div class="clearfix"></div>
+                        <a class="viewLink " href="service.html">VIEW SERVICES</a>
+                        <div class="clearfix"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-8 col-sm-7">
+                      <div class="servicesSubmenuRight"> <a href="alert-service.html">Google/Baidu News Alert</a> <a href="#0">Google/Baidu News Alert</a> <a href="SSE-subscribe-service.html">SSE/SZSE Company Announcement Tracking</a> <a href="#0">Google/Baidu News Alert</a> <a href="#0">Google/Baidu News Alert</a> <a href="SSE-subscribe-service.html">SSE/SZSE Company Announcement Tracking</a> <a href="#0">Google/Baidu News Alert</a> </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"  href="#"><span class="caret"></span> Smart Tools</a>
+              <ul class="dropdown-menu" >
+                <li>
+                  <div class="container paddingTop15 paddingBottom10">
+                    <div class="col-md-4 col-sm-5 borderBlueRight2">
+                      <div class="smartToolSubmenuLeft">
+                        <h1>SmartTools</h1>
+                        <span class="smartIconTxt">We offer a set of reliable tools that you can use and benefit from. Click on each of them to access the details. </span>
+                        <div class="clearfix"></div>
+                        <a class="viewLink" href="tools.html">VIEW SMART TOOLS</a>
+                        <div class="clearfix"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-8 col-sm-7">
+                      <div class="smartToolSubmenuRight"> <a href="article-summary-generation.html">Article Summary Generation</a> <a href="Machine-translatenow.html">Machine Translation</a>   </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<div class="hidden-lg hidden-md hidden-sm  " id="divSearch">
+    <div class="input-group paddingTop5">
+      <input type="text" class="form-control inp inpSearch" placeholder="Search" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search'">
+      <span class="input-group-btn">
+      <button class="btn search-btn" type="button">&nbsp;</button>
+      </span> </div>
+  </div>
+<!-- #header -->
+
+<div class="container-fluid">
+  <div class="row breadcrumbContainer">
+    <div class="container">
+      <ol class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="service.html">Services</a></li>       
+        <li class="active">Google/Baidu News Alert</li>
+      </ol>
+    </div>
+  </div>
+</div>
+<section id="middleContainer">  
+  <div class="container">
+    <div class="paddingLeftRight15 marginT20 marginB20">
+      <h1 class="InnerPageTitle col-md-3 col-sm-12 col-xs-12 paddingL0">News Inbox </h1>
+            <div id="custom-search-input" class="col-md-6 col-sm-10 col-xs-10 padding0">
+        
+          <div class="input-group col-md-12 col-lg-12 col-sm-12 col-xs-12 marginB20">
+            <input type="text" class="search-query form-control size16" placeholder="Search here for News & within the News "><span class="input-group-btn">
+            <a href="javascript:void(0)" class="lightegrey pull-right"> <i class="fa fa-search size24 colorgrey" aria-hidden="true"></i> </a>
+            </span>
+             </div>
+        </div> 
+        
+        <div class="col-md-3 col-sm-2 col-xs-2 "> <a href="JavaScript:Void(0);" class="filter_btn  pull-right"><i class="glyphicon glyphicon-filter bold size16" data-toggle="tooltip" data-placement="top" title="Filter"  ></i></a></div>
+        
+        <div class="col-md-12 col-sm-12 col-xs-12 paddingTop10 borderBlue1  marginB30  paddingBottom10 filter-expand " style="display: block;">
+          
+              
+     
+     
+     <div class="col-md-12 col-sm-12 col-xs-12 padding0"> <a href="JavaScript:Void(0);" class="size22 pull-right"><i class="filter_close glyphicon glyphicon-remove-circle colorGrey" data-toggle="tooltip" data-placement="top" title="Close"></i></a>
+     <div class="clearfix"></div>
+     
+     <div class="col-md-8 col-sm-7 col-xs-12 paddingL0">
+              <div class="col-md-12 col-sm-12 col-xs-12" >
+               
+                <label class="size20 itdgrey"> Keywords</label>
+                
+                  <select data-placeholder="Enter Keyword or Click here to get suggestions" class="chosen-select form-control" tabindex="4" multiple>
+                    <option>Keyword 1</option>
+                    <option>Keyword 2</option>
+                    <option>Keyword 3</option>
+                    <option>Keyword 4</option>
+                 
+                    
+                  </select>
+               
+              </div>
+            </div>
+    
+     
+     <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
+    <div class="col-lg-12 col-md-12 col-sm-12  padding0 marginTMOB30 "> <label class="size20 itdgrey">Select date range</label>
+    </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6  padding0 labe col-xs-6 ">
+                            <label class="size20 itdgrey"> From</label>
+                            <div class="input-group date input-append date form_datetime has-feedback marginR">
+                              <input type="text" class="form-control" placeholder="DD.MM.YYYY" onfocus="this.placeholder = 'DD.MM.YYYY'" onblur="this.placeholder = 'DD.MM.YYYY'">
+                              <i class="fa fa-calendar form-control-feedback from1date blue"></i> <span class="input-group-addon"></span></div></div>
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6  padding0 labe">
+                            <label class="size20 itdgrey"> To</label>
+                            <div class="input-group date input-append date form_datetime has-feedback">
+                              <input type="text" class="form-control" placeholder="DD.MM.YYYY" onfocus="this.placeholder = 'DD.MM.YYYY'" onblur="this.placeholder = 'DD.MM.YYYY'">
+                              <i class="fa fa-calendar form-control-feedback from1date blue"></i> <span class="input-group-addon"></span></div></div></div>
+
+  
+
+</div>
+
+<div class="col-md-12 col-sm-12  col-xs-12 marginT20 padding0 ">
+          
+           <span class=" blueButton pull-right">
+                      <input type="button" value="SUBMIT" ></span>
+            
+            </div>
+           </div> 
+      </div>
+  </div>
+  
+  
+  <div class="idt-docs-header" id="alert-inbox">
+  <div class="container">
+        	<div class="row"> 
+          <div class="col-md-6 col-sm-4 col-xs-9 paddingLeft30"><div class="col-md-5 padding0"><p class="size14  displayin"> SHOW </p> <select class="idt-alertshow form-control">
+        <option value="1">10</option>
+        <option value="2">50</option>
+       
+    </select><p class="size14  displayin"> ALERTS </p>
+    </div>
+    </div>
+    
+    <div class="col-md-6 col-lg-5 col-xs-12 col-sm-8 pull-right">
+     <span class="col-md-4 col-sm-4 col-sm-4 col-xs-6 size16 marginT4 p0">Choose Service Type</span>
+    <div class="col-md-6 col-sm-6 col-xs-9 p0">
+   
+            <select class="form-control selControl col-md-6" id="sel1">
+              <option>SSE/SZSE Company Announcement </option>
+            </select>
+           </div>
+        <div class="alertIcons1 pull-right">
+                    <div class="iconHolder rightBlueBorder editclick "><a href="#0" data-toggle="tooltip" title="Inbox"><i class="fa fa-envelope-o size18 blue"></i></a></div>
+                    <div class="iconHolder"><a href="#0" data-toggle="tooltip" title="Delete"><i class="fa fa-trash-o size18 blue" aria-hidden="true"></i></a></div></div>  
+          
+          </div>
+          </div>
+        </div>
+  
+  
+  </div>
+ 
+  
+  
+    <div class="container">
+    	
+      	<div class="row">
+        <div class="col-md-12 paddingBottom40">
+        <p class="error-msg">Any error or important information can apper this way ... (ELSE MAKE THE ROW INVISIBLE) </p>
+   <div class="table-responsive">
+    
+<table id="example" class="display select table table-responsive"  cellspacing="0" width="100%">
+        <thead>
+            <tr>                                                                                                                                                                               
+                 <th><input name="select_all" value="1" type="checkbox"></th>
+                <th>Keywords</th>
+                <th> Title | Source | Data</th>
+                <th>Abstract</th>
+                <th>Short Summary </th>
+                <th>Article</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+        
+                <td></td>
+                <td>Social media analytics</td>
+                <td>Consultants form an Integral Part of 
+the Recruitment Ecosystem, Says 
+QuikrJobs Head
+<p><strong>Entrepreneur</strong>  |  2017-01-18</p>
+
+
+</td>
+                       <td>New age hiring is all about
+recruiters building their
+database using big data 
+analytics, creating social ...
+<div id="demo" class="collapse">
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+</div>
+
+
+<a href="javascript:void(0)"> <span data-toggle="modal" data-target="#MoreContent" class="link"><strong>Know More..</strong></span></a>
+           
+           <div id="demo" class="collapse size12">
+
+<ul class="healulli size14"> <li> True inicidence rate and prevalence rate has not been reported in most of the studies. </li>
+<li> The studies cover time period of 1989 to 2016 with majority being published in last 10 years.</li>
+<li>No study design restriction was used and even reviews/RCTs that provide any epidemiology data have been reported. </li> </ul>
+
+</div></td>
+
+                <td>"STAY INFORMED. GET 
+INSPIRED.。Get our Best 
+of the your inbox... <a href="javascript:void(0)"> <span data-toggle="modal" data-target="#MoreContent1" class="link"><strong>Know More..</strong></span></a></td>
+<td><a href="#"> <i class="fa fa-link fa-2x rotate135"></i></a> </td>
+            </tr>
+            
+            <tr>
+                <td></td>
+                <td>Social media analytics</td>
+                <td>Consultants form an Integral Part of 
+the Recruitment Ecosystem, Says 
+QuikrJobs Head
+<p><strong>Entrepreneur</strong>  |  2017-01-18</p>
+
+
+</td>
+                       <td>New age hiring is all about
+recruiters building their
+database using big data 
+analytics, creating social ...</td>
+
+                <td>"STAY INFORMED. GET 
+INSPIRED.。Get our Best 
+of the Week Newsletter 
+direct to your inbox...</td>
+<td><a href="#"> <i class="fa fa-link fa-2x rotate135"></i></a> </td>
+            </tr>
+            
+            
+            <tr>
+                <td></td>
+                <td>Social media analytics</td>
+                <td>Consultants form an Integral Part of 
+the Recruitment Ecosystem, Says 
+QuikrJobs Head
+<p><strong>Entrepreneur</strong>  |  2017-01-18</p>
+
+
+</td>
+                       <td>New age hiring is all about
+recruiters building their
+database using big data 
+analytics, creating social ...</td>
+
+                <td>"STAY INFORMED. GET 
+INSPIRED.。Get our Best 
+of the Week Newsletter 
+direct to your inbox... 
+
+
+
+</td>
+<td><a href="#"> <i class="fa fa-link fa-2x rotate135"></i></a> </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Social media analytics</td>
+                <td>Consultants form an Integral Part of 
+the Recruitment Ecosystem, Says 
+QuikrJobs Head
+<p><strong>Entrepreneur</strong>  |  2017-01-18</p>
+
+
+</td>
+                       <td>New age hiring is all about
+recruiters building their
+database using big data 
+analytics, creating social 
+           
+            </td>
+
+                <td>"STAY INFORMED. GET 
+INSPIRED.。Get our Best 
+of the Week Newsletter 
+direct to your inbox...</td>
+<td><a href="#"> <i class="fa fa-link fa-2x rotate135"></i></a> </td>
+            </tr>
+            
+            
+            
+            
+            
+            
+        </tbody>
+    </table>
+        </div>
+       
+        </div>
+      </div>
+    </div>
+  <div class="clearfix"></div>
+  <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top btnTop" role="button" title="Go to top" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-menu-up"></span></a> </section>
+<!-- #content --> 
+
+<!--Footer Starts-->
+<footer>
+  <div class="container-fluid footerGreybg">
+    <div class="row">
+      <div class="container paddingTop10 paddingBottom10"> Can't find the exact tools or services that you are looking for...   Please write to <a href="mailto:IDTChina@evalueserve.com">IDTChina@evalueserve.com</a></div>
+    </div>
+  </div>
+  <div class="container">
+    <!--<div class="footerSection1"><a href="#" class="footerTxt pL0">Services</a> <a href="#" class="footerTxt">Smart Tools</a> <a href="#" class="footerTxt">Features List</a> <a href="#" class="footerTxt">FAQs</a></div>-->
+    <div class="row footerSection2">
+      <div class="col-md-6">&copy; 2017 Evalueserve. All rights reserved.</div>
+      <div class="col-md-6 text-right"><a href="#0">Privacy policy</a> <a href="#0">Cookie Policy</a> <a href="#0">Terms of use</a> <a href="#0">Site Map</a></div>
+    </div>
+  </div>
+  </div>
+  
+  <!--Footer Ends--> 
+</footer>
+ <div id="MoreContent" class="modal fade" role="dialog">
+ 
+
+  <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content floatL">
+
+        <div class="col-md-12 col-sm-12 col-xs-12 borderRight paddingTop10 padding0">
+        
+      
+        <button type="button" class="close marginR10 marginT10 " data-dismiss="modal">&times;</button>
+       <div class="paddingpopup"> 
+       <h1 class="size34">Abstract </h1>
+       
+      <p class="size14"><span class="redcolor">Keywords:</span> Social media analytics
+</p> 
+       <p class="size14"><span class="redcolor">Title:</span> Consultants form an Integral Part of the Recruitment Ecosystem, Says QuikrJobs Head
+</p></div>
+        
+       
+       <div class="col-md-12 borderTopBlue lightbluebg_withscroll padding20 flexcroll">
+       <P class="size15"> New age hiring is all about recruiters building their database using big data analytics, creating social ...
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </P>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</P><p>
+Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+</P>
+<p>
+Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+</p>
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+<p>Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+
+Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+</p><p>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+
+Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+</p>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+
+Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>    
+
+<div class="paddingBottom10"></div>
+  <!--<a href="#" class="Formbutton ">READ MORE.. </a>  -->
+</div>
+    
+       </div> 
+         
+       
+        
+      </div>
+      
+    </div>
+</div>
+
+
+<div id="MoreContent1" class="modal fade" role="dialog">
+ 
+
+  <div class="modal-dialog modal-md">
+    
+      <!-- Modal content-->
+      <div class="modal-content floatL">
+
+        <div class="col-md-12 col-sm-12 col-xs-12 borderRight paddingTop10 padding0">
+        
+      
+        <button type="button" class="close marginR10 marginT10 " data-dismiss="modal">&times;</button>
+       <div class="paddingpopup"> 
+       <h1 class="size34">Short Summary </h1>
+       
+      <p class="size14"><span class="redcolor">Keywords:</span> Social media analytics
+</p> 
+       <p class="size14"><span class="redcolor">Title:</span> Consultants form an Integral Part of the Recruitment Ecosystem, Says QuikrJobs Head
+</p></div>
+        
+       
+       <div class="col-md-12 borderTopBlue lightbluebg_withscroll padding20 flexcroll">
+       <P class="size15"> New age hiring is all about recruiters building their database using big data analytics, creating social ...
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </P>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</P>
+
+
+<div class="paddingBottom10"></div>
+  <!--<a href="#" class="Formbutton ">READ MORE.. </a>  -->
+</div>
+    
+       </div> 
+         
+       
+        
+      </div>
+      
+    </div>
+</div>
+<script src="js/bootstrap-hover-dropdown.js"></script>
+
+<script src="js/bootstrap-datetimepicker.min.js"></script> 
+<script src="js/global.js"></script>
+<script src="js/scrollReveal.min.js"></script>
+
+<script type="text/javascript" language="javascript">	   
+  $(".filter-expand").hide( );
+   $(".filter_btn").click(function(){
+    $(".filter-expand").slideToggle( 500 );
+	$(".filter-label").hide( 500 );
+
+ $(".filter_close").click(function(){
+    $(".filter-label").show();
+	$(".filter-expand").hide();
+});
+
+
+});
+
+
+
+ </script>
+
+<script type="text/javascript">
+
+//Custom username selection
+if($(".chosen-select").length){
+    var config = {
+      '.chosen-select'           : {},
+      '.chosen-select-deselect'  : {allow_single_deselect:false},
+      '.chosen-select-no-single' : {disable_search_threshold:3},
+      '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+      '.chosen-select-width'     : {width:"95%"},
+	  //'.chosen-container'     : {width:"95%"}
+    }
+    for (var selector in config) {
+      $(".chosen-select").chosen(config[selector]);
+    }
+}
+
+</script>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
+</body>
+</html>
